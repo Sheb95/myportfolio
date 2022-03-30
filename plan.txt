@@ -1,0 +1,8 @@
+Components 
+Navbar
+    - About
+    - my skills
+    -contact 
+    -my photography
+Main
+Footer
