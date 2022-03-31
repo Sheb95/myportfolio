@@ -15,6 +15,7 @@ module.exports = {
          "/about": { page: "/about" },
          "/contact": { page: "/contact" },
          "/gallery": { page: "/gallery" },
+         "/portfolio": { page: "/portfolio" },
       };
    },
 };
