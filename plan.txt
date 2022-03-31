@@ -6,3 +6,17 @@ Navbar
     -my photography
 Main
 Footer
+
+
+1) Navbar
+    -Create Navbar component folder
+    -create index.js file
+    -import link
+    -create a compon div
+    -inside, add links to pages created in pages folder
+    -add hrefs such as "pages/about/about.js"
+
+    DB tables
+    1) Random facts about me (x10) --> when button is pressed, call is made to DB and through JS logic, a random fact about me is fetched (as long as its not the same as the previous state) (on main page)
+    2) CV table - one row one column with my CV (for main page. on button press)
+    3) photography -> 7 photos of my street photography (for the "My photography page)

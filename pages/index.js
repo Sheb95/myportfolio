@@ -18,10 +18,13 @@ export default function Home() {
             <a>About me</a>
          </Link>
          <Link href="/contact">
-            <a>Contact</a>
+            <a>Say Hello</a>
          </Link>
          <Link href="/gallery">
             <a>My Photography</a>
+         </Link>
+         <Link href="/gallery">
+            <a>Portfolio</a>
          </Link>
       </div>
    );
