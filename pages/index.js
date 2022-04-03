@@ -1,7 +1,8 @@
 import Head from "next/head";
+import Button from "../components/Button/Button.js";
+import Navbar from "../components/Navbar/Navbar.js";
 
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
 export default function Home() {
    return (
@@ -13,19 +14,12 @@ export default function Home() {
                content="Sheb's web development portfoilo"
             />
          </Head>
-         <h1>Hello, I&#39m Sheb.</h1>
-         <Link href="/about">
-            <a>About me</a>
-         </Link>
-         <Link href="/contact">
-            <a>Say Hello</a>
-         </Link>
-         <Link href="/gallery">
-            <a>My Photography</a>
-         </Link>
-         <Link href="/gallery">
-            <a>Portfolio</a>
-         </Link>
+         <Navbar />
+         <h1>Hello, I am Sheb.</h1>
+         <h2>A Fullstack Developer</h2>
+         <img src="/me.png" height="250"></img>
+         <Button text="CV" />
+         <Button text="Random Fact About Me" />
       </div>
    );
 }
