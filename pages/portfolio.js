@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar.js";
 
-export default function portfolio() {
+export default function Portfolio() {
    return (
       <div>
          <Navbar />

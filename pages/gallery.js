@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar.js";
 
-export default function gallery() {
+export default function Gallery() {
    return (
       <div>
          <Navbar />

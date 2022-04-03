@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar.js";
 
-export default function contact() {
+export default function Contact() {
    return (
       <div>
          <Navbar />
