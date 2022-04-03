@@ -1,3 +1,29 @@
-.container {
+.wrapper {
    padding: 0 2rem;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.image {
+   order: 1;
+}
+.text {
+   order: 2;
+   text-align: justify;
+}
+
+@media screen and (max-width: 950px) {
+   .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .image img {
+      height: 10%;
+   }
 }
