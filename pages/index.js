@@ -7,6 +7,7 @@ import styles from "../styles/Home.module.css";
 import { RainbowHighlight } from "../components/RainbowHighlight.js";
 
 export default function Home() {
+   const colors = ["#cf9fff", "#6622CC"];
    return (
       <div className={styles.container}>
          <Head>
@@ -18,14 +19,16 @@ export default function Home() {
          </Head>
          <Navbar />
          <div className="heading">
-            <RoughNotation show={true}>
-               <RainbowHighlight>
+            <RoughNotationGroup show={true}>
+               <RainbowHighlight color={colors[1]}>
                   <h1>Hello, I am Sheb.</h1>
                </RainbowHighlight>
-            </RoughNotation>
+               <RainbowHighlight color={colors[0]}>
+                  <h2>A Fullstack Developer</h2>
+               </RainbowHighlight>
+            </RoughNotationGroup>
          </div>
 
-         <h2>A Fullstack Developer</h2>
          <img src="/me.png" height="250"></img>
          <Button text="CV" />
          <Button text="Random Fact About Me" />

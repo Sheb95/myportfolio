@@ -12,7 +12,7 @@ export const RainbowHighlight = ({ color, children }) => {
          padding={[0, 2]}
          iterations={1}
          animationDuration={animationDuration}
-         color={"#cf9fff"}
+         color={color}
       >
          {children}
       </RoughNotation>
