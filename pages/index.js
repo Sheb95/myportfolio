@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Button from "../components/Button/Button.js";
 import Navbar from "../components/Navbar/Navbar.js";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RoughNotationGroup } from "react-rough-notation";
 
 import styles from "../styles/Home.module.css";
 import btnstyles from "../components/Button/styles.module.css";
@@ -32,6 +31,7 @@ export default function Home() {
                      </h2>
                   </RainbowHighlight>
                </RoughNotationGroup>
+
                <div className={styles.imageContainer}>
                   <img
                      className={styles.image}
@@ -39,6 +39,7 @@ export default function Home() {
                      height="250"
                   ></img>
                </div>
+
                <div className={btnstyles.icons}>
                   <a
                      target="_blank"

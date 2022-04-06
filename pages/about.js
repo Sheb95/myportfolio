@@ -1,14 +1,18 @@
 import Navbar from "../components/Navbar/Navbar.js";
 import styles from "../styles/About.module.css";
+import { RoughNotation } from "react-rough-notation";
+
 export default function About() {
    return (
       <div className={styles.wrapper}>
          <Navbar />
-         <header>
-            <h1 className={styles.heading}>About me</h1>
+         <header className={styles.heading}>
+            <RoughNotation show={true} type="underline">
+               <h1>About me</h1>
+            </RoughNotation>
          </header>
          <main className={styles.container}>
-            <img className={styles.image} src="/aboutme.jpg"></img>
+            <img className={styles.image} src="/hk.jpg"></img>
             <p className={styles.text}>
                I'm baby thundercats PBR&B enamel pin fixie drinking vinegar
                chambray butcher beard. Godard skateboard plaid jean shorts.

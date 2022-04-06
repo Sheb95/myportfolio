@@ -1,37 +1,38 @@
 .wrapper {
    padding: 0 2rem;
 }
-
+.heading {
+   padding-left: 4em;
+   display: inline-block;
+}
+.heading h1 {
+   font-size: 2.7em;
+}
 .container {
    display: flex;
    flex-direction: row;
-   gap: 10px;
+   gap: 20px;
+   padding-left: 3.5em;
+   padding-right: 3.5em;
 }
 
 .image {
    order: 1;
-   border-radius: 50%;
-   width: 25rem;
-   height: 30rem;
+   box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+   height: 25rem;
    margin-top: 1rem;
 }
 
-.image:hover {
-   transform: scale(1.1);
-}
 .text {
    order: 2;
    text-align: justify;
+   padding-top: 2em;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
    .container {
       display: flex;
       flex-direction: column;
       gap: 10px;
-   }
-
-   .image img {
-      height: 10%;
    }
 }

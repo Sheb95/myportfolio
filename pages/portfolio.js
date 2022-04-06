@@ -1,10 +1,20 @@
 import Navbar from "../components/Navbar/Navbar.js";
-
+import styles from "../styles/Portfolio.module.css";
+import { RoughNotation } from "react-rough-notation";
+import Typewriter from "typewriter-effect";
 export default function Portfolio() {
    return (
-      <div>
+      <div className={styles.container}>
          <Navbar />
-         <h1>My Portfolio</h1>
+         <header className={styles.heading}>
+            <h1>
+               <Typewriter
+                  onInit={(typewriter) => {
+                     typewriter.typeString("My Projects").start();
+                  }}
+               />
+            </h1>
+         </header>
          <p>Make your own dinasour name</p>
          <p>WeShare</p>
          <p>School of Code Bootcamper Resources Website</p>
