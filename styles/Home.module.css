@@ -3,8 +3,5 @@
 }
 
 .heading {
-   position: absolute;
    display: inline-block;
-   border-style: solid;
-   border-color: blue;
 }

@@ -18,7 +18,7 @@ export default function Home() {
             />
          </Head>
          <Navbar />
-         <div className="heading">
+         <div className={styles.heading}>
             <RoughNotationGroup show={true}>
                <RainbowHighlight color={colors[1]}>
                   <h1>Hello, I am Sheb.</h1>
