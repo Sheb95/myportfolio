@@ -1,0 +1,9 @@
+.btns {
+   display: flex;
+   padding-left: 35%;
+   gap: 10px;
+}
+
+.btn {
+   background-color: red;
+}
