@@ -8,7 +8,7 @@
    text-align: center;
 }
 .heading h1 {
-   font-size: 5em;
+   font-size: 4em;
 }
 
 .heading h2 {
@@ -16,10 +16,9 @@
 }
 
 .wrapper {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
+   padding-left: 30%;
 }
-.btn {
-   background-color: red;
+
+.image {
+   border-radius: 50%;
 }

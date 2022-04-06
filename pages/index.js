@@ -23,12 +23,22 @@ export default function Home() {
             <div className={styles.heading}>
                <RoughNotationGroup show={true}>
                   <RainbowHighlight color={colors[1]}>
-                     <h1>Hello, I am Sheb.</h1>
+                     <h1>Hello &#128075;&#127998;, I am Sheb. </h1>
                   </RainbowHighlight>
+
                   <RainbowHighlight color={colors[0]}>
-                     <h2>A Fullstack Developer</h2>
+                     <h2>
+                        A Fullstack Developer&#128105;&#127998;&#8205;&#128187;
+                     </h2>
                   </RainbowHighlight>
                </RoughNotationGroup>
+               <div className={styles.imageContainer}>
+                  <img
+                     className={styles.image}
+                     src="/dp.jpg"
+                     height="250"
+                  ></img>
+               </div>
                <div className={btnstyles.btns}>
                   <Button className={styles.btn} text="CV" />
                   <Button
@@ -37,8 +47,6 @@ export default function Home() {
                   />
                </div>
             </div>
-
-            <img src="/me.png" height="250"></img>
          </div>
       </div>
    );
