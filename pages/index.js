@@ -39,12 +39,16 @@ export default function Home() {
                      height="250"
                   ></img>
                </div>
-               <div className={btnstyles.btns}>
-                  <Button className={styles.btn} text="CV" />
-                  <Button
-                     className={btnstyles.btn2}
-                     text="Random Fact About Me"
-                  />
+               <div className={btnstyles.icons}>
+                  <a
+                     target="_blank"
+                     href="https://www.linkedin.com/in/sheban-saunders/"
+                  >
+                     <div className={styles.icons8linkedin}></div>
+                  </a>
+                  <a target="_blank" href="https://github.com/Sheb95">
+                     <div className={styles.icons8github}></div>
+                  </a>
                </div>
             </div>
          </div>
