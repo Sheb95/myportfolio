@@ -1,10 +1,17 @@
 import Navbar from "../components/Navbar/Navbar.js";
 import styles from "../styles/Portfolio.module.css";
-import { RoughNotation } from "react-rough-notation";
+
 import Typewriter from "typewriter-effect";
 export default function Portfolio() {
    return (
       <div className={styles.container}>
+         <Head>
+            <title>My Portfolio</title>
+            <meta
+               name="Projects"
+               content="A page that displays all the author's projects"
+            />
+         </Head>
          <Navbar />
          <header className={styles.heading}>
             <h1>

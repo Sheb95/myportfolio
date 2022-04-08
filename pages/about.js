@@ -5,6 +5,13 @@ import { RoughNotation } from "react-rough-notation";
 export default function About() {
    return (
       <div className={styles.wrapper}>
+         <Head>
+            <title>About Me</title>
+            <meta
+               name="About me"
+               content="A brief introduction about the author"
+            />
+         </Head>
          <Navbar />
          <header className={styles.heading}>
             <RoughNotation show={true} type="underline">
