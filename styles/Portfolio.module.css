@@ -1,0 +1,10 @@
+.container {
+   padding: 0 2rem;
+}
+.heading {
+   padding-left: 4em;
+   display: inline-block;
+}
+.heading h1 {
+   font-size: 2.7em;
+}

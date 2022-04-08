@@ -5,21 +5,18 @@ import styles from "./styles.module.css";
 const Navbar = () => {
    return (
       <div className={styles.nav}>
-         <Link href="/about">
-            <a>About me</a>
-         </Link>
-         <Link href="/contact">
-            <a>Say Hello</a>
-         </Link>
-         <Link href="/gallery">
-            <a>My Photography</a>
-         </Link>
-         <Link href="/portfolio">
-            <a>Portfolio</a>
-         </Link>
-         <Link href="/">
-            <a>Home</a>
-         </Link>
+         <h2>Sheban Saunders</h2>
+         <nav className={styles.navigation}>
+            <Link href="/about">
+               <a>About Me</a>
+            </Link>
+            <Link href="/portfolio">
+               <a>Portfolio</a>
+            </Link>
+            <Link href="/">
+               <a>Home</a>
+            </Link>
+         </nav>
       </div>
    );
 };

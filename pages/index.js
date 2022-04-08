@@ -1,10 +1,13 @@
 import Head from "next/head";
-import Button from "../components/Button/Button.js";
 import Navbar from "../components/Navbar/Navbar.js";
+import { RoughNotationGroup } from "react-rough-notation";
 
 import styles from "../styles/Home.module.css";
+import btnstyles from "../components/Button/styles.module.css";
+import { RainbowHighlight } from "../components/RainbowHighlight.js";
 
 export default function Home() {
+   const colors = ["#cf9fff", "#6622CC"];
    return (
       <div className={styles.container}>
          <Head>
@@ -15,11 +18,41 @@ export default function Home() {
             />
          </Head>
          <Navbar />
-         <h1>Hello, I am Sheb.</h1>
-         <h2>A Fullstack Developer</h2>
-         <img src="/me.png" height="250"></img>
-         <Button text="CV" />
-         <Button text="Random Fact About Me" />
+         <div className={styles.wrapper}>
+            <div className={styles.heading}>
+               <RoughNotationGroup show={true}>
+                  <RainbowHighlight color={colors[1]}>
+                     <h1>Hello &#128075;&#127998;, I am Sheb. </h1>
+                  </RainbowHighlight>
+
+                  <RainbowHighlight color={colors[0]}>
+                     <h2>
+                        A Fullstack Developer&#128105;&#127998;&#8205;&#128187;
+                     </h2>
+                  </RainbowHighlight>
+               </RoughNotationGroup>
+
+               <div className={styles.imageContainer}>
+                  <img
+                     className={styles.image}
+                     src="/dp.jpg"
+                     height="250"
+                  ></img>
+               </div>
+
+               <div className={btnstyles.icons}>
+                  <a
+                     target="_blank"
+                     href="https://www.linkedin.com/in/sheban-saunders/"
+                  >
+                     <div className={styles.icons8linkedin}></div>
+                  </a>
+                  <a target="_blank" href="https://github.com/Sheb95">
+                     <div className={styles.icons8github}></div>
+                  </a>
+               </div>
+            </div>
+         </div>
       </div>
    );
 }
