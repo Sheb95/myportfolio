@@ -15,11 +15,17 @@ export default function Portfolio() {
                />
             </h1>
          </header>
-         <p>Make your own dinasour name</p>
-         <p>WeShare</p>
-         <p>School of Code Bootcamper Resources Website</p>
-         <p>Natural Hair API</p>
-         <p>Link to github</p>
+         <p>
+            {" "}
+            Under construction. But click the image to be directed to my Github
+            profile.{" "}
+         </p>
+         <a href="https://github.com/Sheb95">
+            <img
+               src="https://i.kym-cdn.com/photos/images/original/001/431/201/40f.png"
+               width={500}
+            ></img>
+         </a>
       </div>
    );
 }

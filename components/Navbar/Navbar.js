@@ -8,7 +8,7 @@ const Navbar = () => {
          <h2>Sheban Saunders</h2>
          <nav className={styles.navigation}>
             <Link href="/about">
-               <a>About me</a>
+               <a>About Me</a>
             </Link>
             <Link href="/portfolio">
                <a>Portfolio</a>
