@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar.js";
 import styles from "../styles/Portfolio.module.css";
+import Head from "next/head";
 
 import Typewriter from "typewriter-effect";
 export default function Portfolio() {

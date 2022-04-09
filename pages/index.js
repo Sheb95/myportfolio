@@ -27,7 +27,7 @@ export default function Home() {
 
                   <RainbowHighlight color={colors[0]}>
                      <h2>
-                        A Fullstack Developer&#128105;&#127998;&#8205;&#128187;
+                        A Full-stack Developer&#128105;&#127998;&#8205;&#128187;
                      </h2>
                   </RainbowHighlight>
                </RoughNotationGroup>

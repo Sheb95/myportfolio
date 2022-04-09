@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar/Navbar.js";
 import styles from "../styles/About.module.css";
 import { RoughNotation } from "react-rough-notation";
+import Head from "next/head";
 
 export default function About() {
    return (

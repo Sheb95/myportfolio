@@ -1,20 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-shebportfolio-dev-232139-authRole",
-      "UnauthRoleArn": "arn:aws:iam::623737234920:role/amplify-shebportfolio-dev-232139-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::623737234920:role/amplify-shebportfolio-dev-232139-authRole",
-      "Region": "eu-north-1",
-      "DeploymentBucketName": "amplify-shebportfolio-dev-232139-deployment",
-      "UnauthRoleName": "amplify-shebportfolio-dev-232139-unauthRole",
-      "StackName": "amplify-shebportfolio-dev-232139",
-      "StackId": "arn:aws:cloudformation:eu-north-1:623737234920:stack/amplify-shebportfolio-dev-232139/c7cd4c80-b077-11ec-b073-0eca612de530",
-      "AmplifyAppId": "d2lxv7mq09qphz"
+      "AuthRoleName": "amplify-shebportfolio-dev-05851-authRole",
+      "UnauthRoleArn": "arn:aws:iam::623737234920:role/amplify-shebportfolio-dev-05851-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::623737234920:role/amplify-shebportfolio-dev-05851-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-shebportfolio-dev-05851-deployment",
+      "UnauthRoleName": "amplify-shebportfolio-dev-05851-unauthRole",
+      "StackName": "amplify-shebportfolio-dev-05851",
+      "StackId": "arn:aws:cloudformation:eu-west-2:623737234920:stack/amplify-shebportfolio-dev-05851/d93a63f0-b797-11ec-b157-0ad0541dbd7e",
+      "AmplifyAppId": "d3q5oyl6mtn1q5"
     },
     "categories": {
       "hosting": {
         "amplifyhosting": {
-          "appId": "d2lxv7mq09qphz",
+          "appId": "d3q5oyl6mtn1q5",
           "type": "manual"
         }
       }
